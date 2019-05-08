@@ -14,7 +14,7 @@ const digitalClock = {
 //   return string.replace(regex, 'BLEEP')
 // }
 
-const sensor = (word, string) => {
+let sensor = (word, string) => {
   var regex = new RegExp(word, 'p');
   return string.replace(regex, 'BLEEP')
 } 
