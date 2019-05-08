@@ -9,11 +9,6 @@ const digitalClock = {
   },
 };
 
-// function censor(word, string) {
-//   var regex = new RegExp(word, 'g');
-//   return string.replace(regex, 'BLEEP')
-// }
-
 const censor = (word, string) => {
   var regex = new RegExp(word, 'g');
   return string.replace(regex, 'BLEEP')
