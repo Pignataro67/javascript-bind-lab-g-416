@@ -14,10 +14,15 @@ const digitalClock = {
   },
 };
 
-function censor(word, string) {
-  var regex = new RegExp(word, 'g');
+// function censor(word, string) {
+//   var regex = new RegExp(word, 'g');
+//   return string.replace(regex, 'BLEEP')
+// }
+
+const sensor = (word, string) => {
+  var regEx = new RegExp(word, 'p');
   return string.replace(regex, 'BLEEP')
-}
+} 
 
 const violenceCensor = censor.bind(null, 'violence');
 
