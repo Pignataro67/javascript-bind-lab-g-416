@@ -1,10 +1,5 @@
 const app = "I don't do much.";
 
-// const sensor = (word, string) => {
-//   var regEx = new RegExp(word, 'p');
-//   return string.replace(regex, 'BLEEP')
-// } 
-
 const digitalClock = {
   time: Math.round(Date.now() / 1000),
   startTicking() {
